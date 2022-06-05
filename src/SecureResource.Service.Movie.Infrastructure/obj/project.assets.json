@@ -590,11 +590,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Repo\\SecureResource.Service.Movie\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Infrastructure\\SecureResource.Service.Movie.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Infrastructure\\SecureResource.Service.Movie.Infrastructure.csproj",
       "projectName": "SecureResource.Service.Movie.Infrastructure",
-      "projectPath": "C:\\Users\\admin\\Repo\\SecureResource.Service.Movie\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Infrastructure\\SecureResource.Service.Movie.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Infrastructure\\SecureResource.Service.Movie.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Repo\\SecureResource.Service.Movie\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

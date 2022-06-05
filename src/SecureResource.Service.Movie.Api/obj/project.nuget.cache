@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k1EkdxEO8oXnO39uTVp4T2CBus0/+x9QBbLPxQaL+KTXVmz9s01nd3os49IMuPdFq6NJkPpN10DLnRzB/OYXsw==",
+  "dgSpecHash": "jIEeftNNm1bsnoD9HqOH4dWWRCzrb0/yo2TLtD8tSW33R3DbUtsGTGRX9z7yF7guPprbFNT7dvCEn4VWOPKdPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Repo\\SecureResource.Service.Movie\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Api\\SecureResource.Service.Movie.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Api\\SecureResource.Service.Movie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.storage.blobs\\12.12.0\\azure.storage.blobs.12.12.0.nupkg.sha512",

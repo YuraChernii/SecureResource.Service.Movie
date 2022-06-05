@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sgI1mWvHNW4xh1KztCYSdeNHdH+vA2T7ZftXl5cxYdyucLc4V52aRQteFEOs7YoUJzfQ+ztPkVmYl9LL4+v3fg==",
+  "dgSpecHash": "u2QI0ToGYo/GrCYhePniOHrnKCyGWIV8ZVl/nQkTFDX3q8X9YB7Xk7IAzRgDzw3cwf/XbyrdIZKHvBBdat2XTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Repo\\SecureResource.Service.Movie\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Application\\SecureResource.Service.Movie.Application.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Application\\SecureResource.Service.Movie.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
