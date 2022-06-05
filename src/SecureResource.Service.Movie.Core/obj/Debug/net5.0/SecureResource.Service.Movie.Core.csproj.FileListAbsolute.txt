@@ -10,3 +10,15 @@ C:\Users\admin\Repo\SecureResource.Service.Movie\SecureResource\SecureResource.S
 C:\Users\admin\Repo\SecureResource.Service.Movie\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\refint\SecureResource.Service.Movie.Core.dll
 C:\Users\admin\Repo\SecureResource.Service.Movie\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\SecureResource.Service.Movie.Core.pdb
 C:\Users\admin\Repo\SecureResource.Service.Movie\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\ref\SecureResource.Service.Movie.Core.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\bin\Debug\net5.0\SecureResource.Service.Movie.Core.deps.json
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\bin\Debug\net5.0\SecureResource.Service.Movie.Core.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\bin\Debug\net5.0\SecureResource.Service.Movie.Core.pdb
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\SecureResource.Service.Movie.Core.csproj.AssemblyReference.cache
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\SecureResource.Service.Movie.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\SecureResource.Service.Movie.Core.AssemblyInfoInputs.cache
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\SecureResource.Service.Movie.Core.AssemblyInfo.cs
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\SecureResource.Service.Movie.Core.csproj.CoreCompileInputs.cache
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\SecureResource.Service.Movie.Core.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\refint\SecureResource.Service.Movie.Core.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\SecureResource.Service.Movie.Core.pdb
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Core\obj\Debug\net5.0\ref\SecureResource.Service.Movie.Core.dll
