@@ -14,7 +14,7 @@ jobs:
         with:
           dotnet-version: 5.0.x
       - name: Restore Nuget packages of api
-        run: dotnet restore ./SecureResource.Service.Movie/src/SecureResource.Service.Movie.Api/SecureResource.Service.Movie.csproj
+        run: dotnet restore ./src/SecureResource.Service.Movie.Api/SecureResource.Service.Movie.csproj
       - name: Build
         run: dotnet build --no-restore
       - name: Test
