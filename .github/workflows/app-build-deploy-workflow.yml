@@ -46,4 +46,4 @@ jobs:
           app-name: SecureResourceMovieApi-app
           package: app
       - name: Logout from Azure
-        run: az logout
+        run: az logout 
