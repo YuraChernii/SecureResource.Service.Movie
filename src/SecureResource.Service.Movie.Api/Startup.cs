@@ -34,7 +34,7 @@ namespace Movies.API
             services.AddDbContext<MoviesContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("SQLServerDB")));
 
-            services.AddSingleton(x => new BlobServiceClient(Configuration.GetConnectionString("AzureBlobStorageConnectionString")));
+            services.AddSingleton(x => new BlobServiceClient(Configuration.GetConnectionString("AzureBlobStorage")));
 
             services.AddAuthentication("Bearer")
                     .AddJwtBearer("Bearer", options =>

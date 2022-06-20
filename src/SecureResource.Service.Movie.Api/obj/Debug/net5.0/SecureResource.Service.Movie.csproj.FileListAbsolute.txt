@@ -467,3 +467,15 @@ C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\S
 C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\obj\Debug\net5.0\SecureResource.Service.Movie.pdb
 C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\obj\Debug\net5.0\SecureResource.Service.Movie.genruntimeconfig.cache
 C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\obj\Debug\net5.0\ref\SecureResource.Service.Movie.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Azure.Identity.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.Azure.KeyVault.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.Rest.ClientRuntime.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.Rest.ClientRuntime.Azure.dll

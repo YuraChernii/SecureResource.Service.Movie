@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Movies.API.Data;
+using SecureResource.Service.Movie.Extensions;
 
 namespace Movies.API
 {
@@ -22,10 +23,21 @@ namespace Movies.API
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
+            .ConfigureAppConfiguration((context, config) =>
+            {
+                if (! context.HostingEnvironment.IsDevelopment())
                 {
-                    webBuilder.UseStartup<Startup>();
-                });
+                    config.ConfigureProductionKeyVault();
+                }
+                else
+                {
+                    config.ConfigureDevelopmentKeyVault();
+                }
+            })
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
 
         private static void SeedDatabase(IHost host)
         {
