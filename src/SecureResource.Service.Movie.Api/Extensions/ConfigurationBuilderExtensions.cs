@@ -10,6 +10,7 @@ namespace SecureResource.Service.Movie.Extensions
 {
     public static class ConfigurationBuilderExtensions
     {
+        //more secure using certificate(client signes request by private key and server verifies it by public key)
         public static void ConfigureProductionKeyVault(this IConfigurationBuilder config)
         {
             var builtConfig = config.Build();
@@ -27,6 +28,7 @@ namespace SecureResource.Service.Movie.Extensions
 
             store.Close();
         }
+
         public static void ConfigureDevelopmentKeyVault(this IConfigurationBuilder config)
         {
             var builtConfig = config.Build();
