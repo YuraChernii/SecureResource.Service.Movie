@@ -25,7 +25,7 @@ namespace Movies.API
             Host.CreateDefaultBuilder(args)
             .ConfigureAppConfiguration((context, config) =>
             {
-                if (! context.HostingEnvironment.IsDevelopment())
+                if (context.HostingEnvironment.IsDevelopment())
                 {
                     config.ConfigureProductionKeyVault();
                 }
