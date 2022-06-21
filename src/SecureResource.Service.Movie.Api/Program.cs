@@ -25,7 +25,7 @@ namespace Movies.API
             Host.CreateDefaultBuilder(args)
             .ConfigureAppConfiguration((context, config) =>
             {
-                if (context.HostingEnvironment.IsDevelopment())
+                if (! context.HostingEnvironment.IsDevelopment())
                 {
                     config.ConfigureProductionKeyVault();
                 }
@@ -37,6 +37,21 @@ namespace Movies.API
             .ConfigureWebHostDefaults(webBuilder =>
             {
                 webBuilder.UseStartup<Startup>();
+
+                string dsn = string.Empty;
+                if (webBuilder.GetSetting("Environment") == Environments.Production)
+                {
+                    dsn = "https://d63100a0921f4ee1b1890a1da4f15cc8@o1295482.ingest.sentry.io/6521122";
+                }
+                webBuilder.UseSentry(o=>
+                {
+                    o.Dsn = dsn;
+                    // When configuring for the first time, to see what the SDK is doing:
+                    o.Debug = true;
+                    // Set TracesSampleRate to 1.0 to capture 100% of transactions for performance monitoring.
+                    // We recommend adjusting this value in production.
+                    o.TracesSampleRate = 1.0;
+                });
             });
 
         private static void SeedDatabase(IHost host)

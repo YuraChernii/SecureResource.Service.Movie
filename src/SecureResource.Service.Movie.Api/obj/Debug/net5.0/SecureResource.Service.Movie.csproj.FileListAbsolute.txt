@@ -479,3 +479,6 @@ C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\S
 C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.Rest.ClientRuntime.dll
 C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Sentry.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Sentry.AspNetCore.dll
+C:\Users\admin\Repo\MyProjects\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\bin\Debug\net5.0\Sentry.Extensions.Logging.dll
