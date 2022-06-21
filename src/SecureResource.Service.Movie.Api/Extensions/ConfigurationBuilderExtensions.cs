@@ -29,6 +29,7 @@ namespace SecureResource.Service.Movie.Extensions
             store.Close();
         }
 
+
         public static void ConfigureDevelopmentKeyVault(this IConfigurationBuilder config)
         {
             var builtConfig = config.Build();
