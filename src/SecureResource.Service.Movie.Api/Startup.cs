@@ -14,6 +14,13 @@ using Microsoft.EntityFrameworkCore;
 using Movies.API.Data;
 using Microsoft.IdentityModel.Tokens;
 using Azure.Storage.Blobs;
+using Sentry;
+using Newtonsoft.Json;
+using SecureResource.Service.Movie.Api.Models;
+using System.Net;
+using Microsoft.AspNetCore.Http;
+using SecureResource.Service.Movie.Api.Models.Constants;
+using Microsoft.AspNetCore.Diagnostics;
 
 namespace Movies.API
 {
@@ -55,10 +62,36 @@ namespace Movies.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            //if (env.IsDevelopment())
-            //{
+            if (env.IsDevelopment())
+            {
                 app.UseDeveloperExceptionPage();
-            //}
+            }
+            else
+            {
+                app.UseExceptionHandler(errorApp =>
+                {
+                    errorApp.Run(async context =>
+                    {
+                        context.Response.StatusCode = 500;
+                        context.Response.ContentType = "application/json";
+                        context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+
+                        var exceptionHandlerPathFeature =
+                            context.Features.Get<IExceptionHandlerPathFeature>();
+
+                        var exception = exceptionHandlerPathFeature.Error;
+                        SentrySdk.CaptureException(exception);
+
+                        while (exception?.InnerException != null)
+                        {
+                            exception = exception.InnerException;
+                        }
+
+                        var responseText = JsonConvert.SerializeObject(new ErrorResponseModel(ErrorTypes.InternalServerError, exception?.Message, HttpStatusCode.InternalServerError, exceptionHandlerPathFeature.Error?.StackTrace, exceptionHandlerPathFeature.Error?.Data));
+                        await context.Response.WriteAsync(responseText);
+                    });
+                });
+            }
 
             app.UseHttpsRedirection();
 
