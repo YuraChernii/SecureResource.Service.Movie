@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2gGclMOp9Nz+NIfzJzVA7Ma6TmCl0YYrzulakmcfn/srhUTksBHXim/O0ZmOfFNBDNoaaXrYViYosbiRORhqJA==",
+  "dgSpecHash": "Wpl6pDeSEEFBrsOvO31sW3+g/JaIodJd1C3cJ7SMwdtpIxuN96495nmb1rpnXuJkeXlVB8w8ecjmKY+QLoGJJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Api\\SecureResource.Service.Movie.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Api\\SecureResource.Service.Movie.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.extensions.aspnetcore.configuration.secrets\\1.2.2\\azure.extensions.aspnetcore.configuration.secrets.1.2.2.nupkg.sha512",
