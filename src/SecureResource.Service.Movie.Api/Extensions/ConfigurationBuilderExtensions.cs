@@ -10,8 +10,8 @@ namespace SecureResource.Service.Movie.Extensions
 {
     public static class ConfigurationBuilderExtensions
     {
-        //more secure using certificate(client signes request by private key and server verifies it by public key)
-        public static void ConfigureProductionKeyVault(this IConfigurationBuilder config)
+        //More secure using certificate(client signes request by private key and server(Azure AD) verifies it by public key)
+        public static void ConfigureDevelopmentKeyVault(this IConfigurationBuilder config)
         {
             var builtConfig = config.Build();
             var store = new X509Store(StoreLocation.CurrentUser);
@@ -29,7 +29,8 @@ namespace SecureResource.Service.Movie.Extensions
             store.Close();
         }
 
-        public static void ConfigureDevelopmentKeyVault(this IConfigurationBuilder config)
+        //Can use Client Secrets but it's insecure way
+        public static void ConfigureStaggingKeyVault(this IConfigurationBuilder config)
         {
             var builtConfig = config.Build();
 
@@ -41,6 +42,17 @@ namespace SecureResource.Service.Movie.Extensions
             var credential = new ClientSecretCredential(tenantId, clientId, clientSecret);
 
             var client = new SecretClient(new Uri(kvURL), credential);
+            config.AddAzureKeyVault(client, new AzureKeyVaultConfigurationOptions());
+        }
+
+        //Use Managed Identity - added Object ID to Key Vault
+        public static void ConfigureProductionKeyVault(this IConfigurationBuilder config)
+        {
+            var builtConfig = config.Build();
+
+            string kvURL = builtConfig["KeyVaultConfig:KVURL"];
+
+            var client = new SecretClient(new Uri(kvURL), new DefaultAzureCredential());
             config.AddAzureKeyVault(client, new AzureKeyVaultConfigurationOptions());
         }
     }
