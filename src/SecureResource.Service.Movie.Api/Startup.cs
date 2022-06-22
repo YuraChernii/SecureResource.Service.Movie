@@ -66,32 +66,32 @@ namespace Movies.API
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                app.UseExceptionHandler(errorApp =>
-                {
-                    errorApp.Run(async context =>
-                    {
-                        context.Response.StatusCode = 500;
-                        context.Response.ContentType = "application/json";
-                        context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+            //else
+            //{
+            //    app.UseExceptionHandler(errorApp =>
+            //    {
+            //        errorApp.Run(async context =>
+            //        {
+            //            context.Response.StatusCode = 500;
+            //            context.Response.ContentType = "application/json";
+            //            context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
 
-                        var exceptionHandlerPathFeature =
-                            context.Features.Get<IExceptionHandlerPathFeature>();
+            //            var exceptionHandlerPathFeature =
+            //                context.Features.Get<IExceptionHandlerPathFeature>();
 
-                        var exception = exceptionHandlerPathFeature.Error;
-                        SentrySdk.CaptureException(exception);
+            //            var exception = exceptionHandlerPathFeature.Error;
+            //            SentrySdk.CaptureException(exception);
 
-                        while (exception?.InnerException != null)
-                        {
-                            exception = exception.InnerException;
-                        }
+            //            while (exception?.InnerException != null)
+            //            {
+            //                exception = exception.InnerException;
+            //            }
 
-                        var responseText = JsonConvert.SerializeObject(new ErrorResponseModel(ErrorTypes.InternalServerError, exception?.Message, HttpStatusCode.InternalServerError, exceptionHandlerPathFeature.Error?.StackTrace, exceptionHandlerPathFeature.Error?.Data));
-                        await context.Response.WriteAsync(responseText);
-                    });
-                });
-            }
+            //            var responseText = JsonConvert.SerializeObject(new ErrorResponseModel(ErrorTypes.InternalServerError, exception?.Message, HttpStatusCode.InternalServerError, exceptionHandlerPathFeature.Error?.StackTrace, exceptionHandlerPathFeature.Error?.Data));
+            //            await context.Response.WriteAsync(responseText);
+            //        });
+            //    });
+            //}
 
             app.UseHttpsRedirection();
 
