@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureResource.Service.Movi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureResource.Service.Movie.Infrastructure", "src\SecureResource.Service.Movie.Infrastructure\SecureResource.Service.Movie.Infrastructure.csproj", "{3F019F2F-B33E-411D-AED0-3D70BACF6AD9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureResource.Service.Movie.Api", "src\SecureResource.Service.Movie.Api\SecureResource.Service.Movie.Api.csproj", "{0E725BB5-9000-4544-8C4D-91FF87B012DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureResource.Service.Movie", "src\SecureResource.Service.Movie.Api\SecureResource.Service.Movie.csproj", "{0E725BB5-9000-4544-8C4D-91FF87B012DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
