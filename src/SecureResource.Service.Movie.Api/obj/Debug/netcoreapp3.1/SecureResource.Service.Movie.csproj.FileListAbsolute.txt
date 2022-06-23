@@ -1,6 +1,0 @@
-C:\Users\admin\Repo\SecureResource.Service.Movie\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\obj\Debug\netcoreapp3.1\SecureResource.Service.Movie.csproj.AssemblyReference.cache
-C:\Users\admin\Repo\SecureResource.Service.Movie\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\obj\Debug\netcoreapp3.1\SecureResource.Service.Movie.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\admin\Repo\SecureResource.Service.Movie\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\obj\Debug\netcoreapp3.1\SecureResource.Service.Movie.AssemblyInfoInputs.cache
-C:\Users\admin\Repo\SecureResource.Service.Movie\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\obj\Debug\netcoreapp3.1\SecureResource.Service.Movie.AssemblyInfo.cs
-C:\Users\admin\Repo\SecureResource.Service.Movie\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\obj\Debug\netcoreapp3.1\SecureResource.Service.Movie.csproj.CoreCompileInputs.cache
-C:\Users\admin\Repo\SecureResource.Service.Movie\SecureResource\SecureResource.Service.Movie\src\SecureResource.Service.Movie.Api\obj\Debug\netcoreapp3.1\SecureResource.Service.Movie.MvcApplicationPartsAssemblyInfo.cache
