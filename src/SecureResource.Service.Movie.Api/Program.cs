@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.AzureAppServices;
 using Movies.API.Data;
 using SecureResource.Service.Movie.Extensions;
 
@@ -23,6 +24,22 @@ namespace Movies.API
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+            .ConfigureLogging(logging =>
+            {
+                logging.ClearProviders();
+                logging.AddConsole();
+                logging.AddDebug();
+                logging.AddAzureWebAppDiagnostics();
+            })
+                .ConfigureServices(services =>
+                {
+                    services.Configure<AzureFileLoggerOptions>(options =>
+                    {
+                        options.FileName = "first-azure-log";
+                        options.FileSizeLimit = 50 * 1024;
+                        options.RetainedFileCountLimit = 10;
+                    }); 
+                })
             .ConfigureAppConfiguration((context, config) =>
             {
                 if (! context.HostingEnvironment.IsDevelopment())
@@ -36,8 +53,6 @@ namespace Movies.API
             })
             .ConfigureWebHostDefaults(webBuilder =>
             {
-                webBuilder.UseStartup<Startup>();
-
                 string dsn = string.Empty;
                 if (webBuilder.GetSetting("Environment") == Environments.Production)
                 {
@@ -52,6 +67,8 @@ namespace Movies.API
                     // We recommend adjusting this value in production.
                     o.TracesSampleRate = 1.0;
                 });
+                
+                webBuilder.UseStartup<Startup>();
             });
 
         private static void SeedDatabase(IHost host)
