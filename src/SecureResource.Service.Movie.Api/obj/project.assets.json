@@ -10077,9 +10077,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Api\\SecureResource.Service.Movie.Api.csproj",
-      "projectName": "SecureResource.Service.Movie.Api",
-      "projectPath": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Api\\SecureResource.Service.Movie.Api.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Api\\SecureResource.Service.Movie.csproj",
+      "projectName": "SecureResource.Service.Movie",
+      "projectPath": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Api\\SecureResource.Service.Movie.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\admin\\Repo\\MyProjects\\SecureResource\\SecureResource.Service.Movie\\src\\SecureResource.Service.Movie.Api\\obj\\",
       "projectStyle": "PackageReference",
